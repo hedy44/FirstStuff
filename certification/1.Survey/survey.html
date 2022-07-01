@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Survey</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+<h1 id="title"> Sport survey</h1>
+<p id="description">Thank you for your time </p> 
+
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label">Enter Your Name: 
+      <input 
+      type="text" 
+      id="name" 
+      placeholder="enter your name here"
+      required/>
+    </label>
+    <label id ="email-label">Enter Your e-mail: 
+      <input 
+      id="email" 
+      type="email" 
+      placeholder="enter your email here" 
+      required/>
+    </label>
+    <label id ="number-label">Age: 
+      <input 
+      id="number" 
+      type="number" 
+      placeholder="Age"
+      min="13"
+      max="25"
+      required/>
+    </label>
+</fieldset>
+<fieldset>
+  <p>What is your favorite Sport?</p>
+  <select id="dropdown"> 
+    <option value="">(select one)</option>
+    <option value="1">Roller-Hockey</option>
+    <option value="2">Football</option>
+    <option value="3">Basketball</option>
+    <option value="4">Basebal</option>
+    <option value="5">Other</option>
+  </select>
+</fieldset>
+
+<fieldset>
+  <p>Do you play sport? </p>
+  <label><input type="radio" name="y-n" class="inline" value="Yes"/>Yes</label>
+  <label><input type="radio" name="y-n" class="inline" value="No" />No</label>
+</fieldset>
+
+<fieldset>
+  <p>What are the main reason for you practicing sport?</p>
+  <select id="dropdown2"> 
+    <option value="">(select one)</option>
+    <option value="1">Well-being</option>
+    <option value="2">Fun</option>
+    <option value="3">Socialize</option>
+    <option value="4">Make new friends</option>
+    <option value="5">To be the best</option>
+    <option value="6">Other</option>
+  </select>
+</fieldset>
+
+<fieldset>
+  <p>After a competition, what you do? (Can choose more than one)</p>
+  <label><input type="checkbox"  class="inline" value="Home"/>Go Home</label>
+  <label><input type="checkbox"  class="inline" value="Gym"/>Go to the gym</label>
+  <label><input type="checkbox"  class="inline" value="Friends"/>Go celebrate with the friends or team</label>
+  <label><input type="checkbox"  class="inline" value="Video"/>Watch video of competition</label>
+  <label><input type="checkbox"  class="inline" value="Protein"/>Drink protein </label>
+  <label><input type="checkbox"  class="inline" value="Other"/>Other</label>
+</fieldset>
+
+<fieldset>
+ 
+  <label> 
+    <p>What questions do you want to see in the next survey? Leave your suggestion here..</p>
+    <textarea name="sugestion" class="textarea" placeholder="Enter your questions here..."></textarea> 
+  </label>
+
+</fieldset>
+
+<button id="submit" type="submit" value="Submit">Submit</button>
+
+</form>
+
+
+  </body>
+</html>
