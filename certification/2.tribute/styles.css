@@ -1,0 +1,38 @@
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+body{
+  color: white;
+  background-color: black;
+  font-size: 18px;
+}
+
+strong{
+  font-size:20px;
+  color: Red;
+}
+
+p {
+  text-align: center;
+  color:black;
+  background-color:white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 50px 0;
+  
+}
+
+h1{
+  font-size:4rem;
+  margin-bottom: 0;
+  text-align:center;
+}
+
+figcaption{
+  font-size:1rem;
+  font-weight: bold;
+}
