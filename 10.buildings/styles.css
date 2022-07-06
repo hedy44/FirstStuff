@@ -40,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  
 }
 .sky {
   background: radial-gradient(circle closest-corner at 15% 15%,
